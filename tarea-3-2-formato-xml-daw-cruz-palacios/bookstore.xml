@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet type="text/xml" href="bookstore.xslt"?>
+<!DOCTYPE bookstore SYSTEM "bookstore.dtd">
+<bookstore>
+
+<book>
+
+<title>Diseño de figurines y vestuario escénico</title>
+<isbn>9788441541177</isbn>
+<autor>Tan Huaixiang</autor>
+<year>2019</year>
+<size>21,00 x 27,00</size>
+<price>39,95€</price>
+
+</book>
+
+<book>
+
+<title>Las jirafas no pueden bailar</title>
+<isbn>9788421683125</isbn>
+<autor>VV.AA.</autor>
+<year>2014</year>
+<size>19,50 x 23,00</size>
+<price>18,95€</price>
+
+</book>
+
+<book>
+
+<title>Come comida real</title>
+<isbn>9788449335617</isbn>
+<autor>Carlos Ríos</autor>
+<year>2019</year>
+<size>21,00 x 26,00</size>
+<price>17,00€</price>
+
+</book>
+
+</bookstore>

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>tarea-2-2-formulario-contacto</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Eduardo de la Cruz Palacios, alumno de iFP, ciclo formativo DAW">
+    <style>
+        
+        body {
+            background-color: dodgerblue;
+            color: white;
+            font-size: 1.25em;
+            margin: auto;
+        }
+        
+        section {
+            display: flex;
+            justify-content: center;
+        }
+        
+        caption {
+            margin-bottom: 20px;
+        }
+        
+        td {
+            margin: 5px;
+            padding: 5px;
+        }
+
+        input.grande {
+            width: 400px;
+        }
+        
+        input.mediano {
+            width: 200px;
+        }
+        
+        
+        input.peque {
+            width: 150px;
+        }
+        
+        input[type="submit"] {
+            background-color: white;
+            padding: 10px 30px;
+            color: black;
+            font-family: sans-serif;
+            font-size: 1em;
+            font-weight: bold;
+            border: none;
+            border-radius: 30px;
+        }
+        
+        input[type="submit"]:hover {
+            background-color: burlywood;
+        }
+        
+        input:focus {
+            background-color: burlywood;
+        }
+        
+        textarea:focus {
+            background-color: burlywood;
+        }
+        
+        p {
+            text-align: center;
+        }
+        
+    </style>
+</head>
+<body>
+     
+     <section>
+          
+        <form action="http://www.cursos-diseno.es/mi-mail.php" target="_blank" method="post">
+          
+          <table>
+             <caption>Rellene todos los campos. Le responderemos lo antes posible</caption>
+              <tr>
+                  <td><label for="nombre">Nombre:</label></td>
+                  <td><input type="text" name="nombre" id="nombre" required placeholder="Eduardo" autofocus autocomplete="on" class="grande"></td>
+              </tr>
+              
+              <tr>
+                  <td><label for="apellidos">Apellidos:</label></td>
+                  <td><input type="text" name="apellidos" id="apellidos" required placeholder="de la Cruz Palacios" autocomplete="on" class="grande"></td>
+              </tr>
+              
+              <tr>
+                  <td><label for="email">E-mail:</label></td>
+                  <td><input type="email" name="email" id="email" required placeholder="ecruz@bib.csic.es" autocomplete="on"  class="peque"></td>
+              </tr>
+              
+              <tr>
+                  <td><label for="telefono">Teléfono:</label></td>
+                  <td><input type="tel" name="telefono" id="telefono" pattern="[0-9]{9}" required placeholder="916665555" autocomplete="on" maxlength="9"  class="mediano"></td>
+              </tr>
+              
+              <tr>
+                  <td><label for="mensaje">Mensaje:</label></td>
+                  <td><textarea name="mensaje" id="mensaje" cols="55" rows="10" required placeholder="Mensaje..." autocomplete="on"></textarea></td>
+              </tr>
+                <tr>
+                    <td colspan="2"><p><input type="submit" value="Enviar"><input type="hidden" name="destinatario" value="eduardocruzpalacios@gmail.com"></p>
+               </td>
+                </tr>
+                           
+          </table>
+          
+        </form>
+          
+          </section>
+          
+</body>
+</html>

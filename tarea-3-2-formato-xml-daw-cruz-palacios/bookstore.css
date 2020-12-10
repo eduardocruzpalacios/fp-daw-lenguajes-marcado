@@ -1,0 +1,68 @@
+body {
+    font-family: sans-serif;
+}
+
+div {
+    display: block;
+    float: left;
+    overflow: auto;
+    margin: 5px;
+}
+
+table {
+    border: 0px;
+    margin: 20px;
+    width: 250px;
+    border-collapse: collapse;
+}
+
+td.title {
+    background-color: darkred;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+    padding: 8px;
+}
+
+td.isbn {
+    background-color: cornflowerblue;
+    color: black;
+    font-size: 10px;
+    text-align: left;
+    padding: 8px;
+}
+
+td.autor {
+    background-color: cornflowerblue;
+    color: darkred;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: left;
+    padding: 8px;
+}
+
+td.year {
+    background-color: cornflowerblue;
+    color: black;
+    font-size: 10px;
+    text-align: left;
+    padding: 8px;
+}
+
+td.size {
+    background-color: cornflowerblue;
+    color: black;
+    font-size: 10px;
+    text-align: left;
+    padding: 8px;
+}
+
+td.price {
+    background-color: dimgray;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: right;
+    padding: 8px;
+}

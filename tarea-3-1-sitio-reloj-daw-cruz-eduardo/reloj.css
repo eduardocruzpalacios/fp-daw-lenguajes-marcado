@@ -1,0 +1,172 @@
+body {
+    width: 1000px;
+    margin: auto;
+}
+
+header {
+    background-image: url("reloj1.jpg");
+    background-repeat: no-repeat;
+    height: 288px;
+    margin-bottom: 20px;
+}
+
+div.navsec {
+    float: left;
+    width: 730px;
+    margin-right: 20px;
+}
+
+aside.a1 {
+    float: left;
+    width: auto;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+}
+
+nav li {
+    float: left;
+}
+
+nav a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 14px;
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: red;
+}
+
+nav a.actual {
+    color: black;
+    background-color: dimgrey;
+}
+
+h1 {
+    font-family: 'Unna', serif;
+    font-size: 80px;
+    color: white;
+    text-align: right;
+    margin: 40px;
+}
+
+h2 {
+    font-family: 'Unna', serif;
+    font-size: 40px;
+}
+
+p {
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+}
+
+p a:link {
+    color: black;
+}
+
+p a:visited {
+    color: black;
+}
+
+p a:hover {
+    color: red;
+}
+
+p a:active {
+    color: red;
+}
+
+td, label {
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    margin: 5px;
+    padding: 5px;
+}
+
+tr {
+    margin: 5px;
+}
+
+input[type="text"] {
+    width: 400px;
+    border: 1px solid black;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    padding: 5px;
+}
+
+input[type="text"]:focus {
+    background-color: #D3D3D3;
+    outline-color: #D3D3D3;
+}
+
+input[type="tel"] {
+    width: 400px;
+    border: 1px solid black;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    padding: 5px;
+}
+
+input[type="tel"]:focus {
+    background-color: #D3D3D3;
+    outline-color: #D3D3D3;
+}
+
+input[type="email"] {
+    width: 400px;
+    border: 1px solid black;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    padding: 5px;
+}
+
+input[type="email"]:focus {
+    background-color: #D3D3D3;
+    outline-color: #D3D3D3;
+}
+
+textarea {
+    width: 400px;
+    height: 200px;
+    border: 1px solid black;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    padding: 5px;
+    resize: vertical;
+}
+
+textarea:focus {
+    background-color: #D3D3D3;
+    outline-color: #D3D3D3;
+}
+
+input[type="submit"] {
+    background-color: #333333;
+    padding: 10px 30px;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    border-radius: 30px;
+}
+
+input[type="submit"]:hover {
+    background-color: steelblue;
+}
+
+table p {
+    text-align: center;
+}

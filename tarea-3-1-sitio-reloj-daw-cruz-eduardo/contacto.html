@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contacto - Servicio al cliente</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Eduardo de la Cruz Palacios, alumno de iFP, ciclo formativo DAW">
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Unna&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="reloj.css">
+</head>
+<body>
+  
+   <header>
+   <h1>Equilibrio<br/>Perfecto</h1>
+   </header>
+   
+   <div class="navsec">
+   
+    <nav>
+       <ul>
+           <li><a href="index.html">Colección</a></li>
+           <li><a href="compromiso.html">Nuestro compromiso</a></li>
+           <li><a href="contacto.html" class="actual">Servicio al cliente</a></li>
+       </ul>
+    </nav>
+      
+       <section>
+       
+        <h2>Contacto</h2>
+           
+        <form action="http://www.cursos-diseno.es/mi-mail.php" target="_blank" method="post">
+          
+          <table>
+              <tr>
+                  <td><label for="nombre">Nombre:</label></td>
+                  <td><input type="text" name="nombre" id="nombre" required autofocus autocomplete="on"></td>
+              </tr>
+              
+              <tr>
+                  <td><label for="apellidos">Apellidos:</label></td>
+                  <td><input type="text" name="apellidos" id="apellidos" required autocomplete="on"></td>
+              </tr>
+              
+              <tr>
+                  <td><label for="telefono">Teléfono:</label></td>
+                  <td><input type="tel" name="telefono" id="telefono" pattern="[0-9]{9}" required autocomplete="on" maxlength="9"></td>
+              </tr>
+              
+              <tr>
+                  <td><label for="email">Email:</label></td>
+                  <td><input type="email" name="email" id="email" required autocomplete="on"></td>
+              </tr>
+              
+              <tr>
+                  <td><label for="comentarios">Comentarios:</label></td>
+                  <td><textarea name="comentarios" id="comentarios" cols="" rows="" placeholder="Escriba su mensaje..."></textarea></td>
+              </tr>
+               
+              <tr>
+                  <td>Tipo de mensaje:</td>
+                  <td><input type="radio" id="sugerencia" name="tipo_mensaje" value="sugerencia">
+                      <label for="sugerencia">Sugerencia</label><br>
+                      <input type="radio" id="reclamacion" name="tipo_mensaje" value="reclamacion">
+                      <label for="reclamacion">Reclamación</label><br>
+                      <input type="radio" id="consulta" name="tipo_mensaje" value="consulta">
+                      <label for="consulta">Consulta</label></td>
+              </tr>
+               
+                <tr>
+                    <td colspan="2"><p><input type="submit" value="Enviar"><input type="hidden" name="destinatario" value="eduardocruzpalacios@gmail.com"></p>
+               </td>
+                </tr>
+                           
+          </table>
+          
+        </form>
+            
+            
+       </section>
+
+   </div>
+
+    <aside class="a1"><img src="reloj2.jpg" alt="">
+    </aside>
+    
+</body>
+</html>
